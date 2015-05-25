@@ -1,0 +1,578 @@
+
+
+
+.reimagine {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.reimagine input {
+	color: white;
+	background-color: rgba(0,0,0,0.1);
+	width: 300px;
+}
+
+.reimagine h1, h2 {
+	font-weight: bolder;
+}
+
+#RInavbar {
+	background-color: #3a3431;
+	height: 75px;
+}
+
+.navbar-nav ul {
+	color: white;
+	font-size: 20px;
+}
+
+#nav-signup-button {
+	margin-left: 15px;
+}
+
+/* carousel */
+#heroCarousel {
+	  width: auto;
+	  margin: auto;
+	  margin-top: -22px;
+}
+
+#banner {
+	height: 750px;
+}
+
+#pic1 p{
+	font-size: 35px;
+	text-shadow: none;
+	color: #3a3431;
+}
+
+#pic2 p{
+	font-size: 35px;
+	text-shadow: none;
+	color: #3a3431;
+}
+
+#pic3 p{
+	font-size: 35px;
+	text-shadow: none;
+	color: #3a3431;
+}
+
+#down-arrow {
+	color: #f7f7f7;
+}
+
+/* end carousel */
+
+/* login box */
+#sign-up {
+	z-index: 1;
+  	margin-left: -13px;
+  	margin-top: -230px;
+  	text-align: center;
+  	font-size: 16px;
+  	font-weight: bolder;
+
+  	/*color: white; temp color*/
+ }
+
+#sign-up a {
+	color: #f4732d;
+
+
+}
+
+#login-box {
+	height: 250px;
+  	width: 350px;
+  	background-color: #9bca4d;
+  	border-radius: 10px;
+  	z-index: 1;
+  	margin-top: -497px;
+  	margin-left: 132px;
+
+}
+
+#login-box p {
+	text-align: center;
+  	color: white;
+  	font-weight: bolder;
+  	font-size: 18px;
+  	margin-top: 20px;
+}
+
+#login-box button {
+	margin-top: 20px;
+	float: left;	
+}
+
+#forgot {
+	padding: 17px;
+}
+
+/* end login box */
+
+/* about you */
+
+#about-you {
+	margin-top: 20px;
+	color: #988d87;
+}
+
+#about-you a {
+	color: #988d87;
+	font-weight: bolder;
+
+}
+
+
+#about-you img {
+	border: 2px solid #f7f7f7;
+  	border-radius: 50%;
+}
+
+#about-you img:hover {
+	border: 3px solid #9bca4d;
+	border: 2px solid #9bca4d;
+} 
+
+.about-you-thumbnails a {
+	margin-top: 5px;
+}
+
+
+/* end about you */
+
+
+/* survivor */
+
+#survivor {
+	padding-top: 232px;
+	width: 100%;
+	color: white;
+	background: url("../img/polygon.png") no-repeat center top;
+	background-color: #9bca4d;
+	background-size: contain;
+}
+
+.survivor-text {
+	margin-left: 90px;
+	font-size: 20px;
+}
+
+#survivor-login {
+	margin-left: 33px;
+}
+
+#mac-pic {
+	margin-left: 100px;
+  	margin-top: -56px;
+}
+
+/* end of survivor */
+
+/* we are your home */
+
+#home {
+	width: 100%;
+}
+
+.home-pics {
+	position: relative;
+}
+
+#home-text {
+	margin-top: 220px;
+	padding-bottom: 25px;
+}
+
+#home-text h1 {
+	position: absolute;
+	top: 5px;	
+
+}
+
+.community {
+	padding-bottom: 15px;
+
+}
+
+.tools {
+	padding-bottom: 15px;
+}
+
+#home h1 {
+	z-index: 1;
+	color: white;
+	margin-left: 15px;
+	position: absolute;
+}
+
+
+
+
+/* We are your Home hover tiles*/
+
+.home-pics:hover .home-hover-tile {
+	opacity: 1;
+}
+ 
+.home-pics .home-hover-tile {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	opacity: 0;
+  	transition: all 0.4s ease;
+  	background:rgba(0,0,0,0.5);
+  	color: white;
+  	z-index: 1;
+  	top: 0px;
+  	left: 0px;
+}
+
+#stranger-community p {
+	margin-left: 10px;	
+}
+
+.home-pics ul {
+	margin-top: 66px;
+	list-style-type: none;
+	
+}
+
+.home-pics li {
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.home-pics li + li {
+	margin-left: 200px;
+  	margin-right: 16pc;
+}
+
+
+/* proven tools hover */
+.home-pics:hover .home-hover-tile2 {
+	opacity: 1;
+}
+
+.home-pics .home-hover-tile2 {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	opacity: 0;
+  	transition: all 0.4s ease;
+  	background:rgba(0,0,0,0.5);
+  	color: white;
+  	z-index: 1;
+  	top: 0px;
+  	left: 0px;
+}
+
+/* core program hover */
+.home-pics:hover .home-hover-tile3 {
+	opacity: 1;
+}
+
+.home-pics .home-hover-tile3 {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	opacity: 0;
+  	transition: all 0.4s ease;
+  	background:rgba(0,0,0,0.5);
+  	color: white;
+  	z-index: 1;
+  	top: 0px;
+  	left: 0px;
+}
+
+/* end of home */
+
+
+/*unique*/
+
+.unique-testimonials h3 {
+    margin: 0;     
+    color: #988d87;
+  	font-size: 41px;
+  	text-align: justify;
+  	text-shadow: none;
+}
+
+.unique-testimonials p {
+    color: #988d87;
+    font-size: 16px;
+    text-align: justify;
+    text-shadow: none;
+
+}
+
+#testimonials img {
+  	padding-top: 60px;
+  	padding-left: 40px;
+}
+
+.testimonial {
+	margin-bottom: -9%;
+  	margin-left: 7%;
+}
+
+.item {
+    background: white;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel {
+    margin-top: 20px;
+    width: 75%;
+  	margin-left: 150px;
+}
+.carousel-control.right, 
+.carousel-control.left {
+  	background-image:none;
+}
+
+#chevron-left {
+	margin-left: -149px;
+}
+
+#chevron-right {
+	margin-right: -142px;
+}
+
+#unique {
+	height: 565px;
+	width: 100%;
+	margin-top: 129px;
+}
+
+#unique-text {
+    margin-top: -468px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+#quotes {
+	width: 18%;
+  	position: relative;
+  	left: 100%;
+  	bottom: 51px;
+}
+/*end of unique*/
+
+/*logos*/
+#logos {
+	height: 201px;
+  	padding-top: 75px;
+	background-color: white;
+	text-align: center;
+
+	/*border-bottom: 1px dashed red;*/
+}
+/* end of logos*/
+
+/* reimagine is more */
+#more {
+	background-color: #f7f7f7;
+	padding-top: 83px;
+	text-align: center;
+}
+
+#more p {
+}
+
+/* Reimagine is More tiles */
+.tile {
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+    width: 353px;
+    height: 443px;
+    text-align: justify;
+}
+
+.tile-text {
+	height: 50%;
+}
+
+.tile img {
+	width: 100%;
+	height: 50%;
+}
+
+.tile h2 {
+	padding-bottom: 10px;
+  	margin-left: 26px;
+  	padding-top: 15px;
+}
+
+.tile hr {
+	border-top: 3px solid red;
+  	width: 15px;
+  	margin-left: 34px;	
+}
+
+.tile p {
+	margin-left: 26px;
+	margin-right: 26px;
+}
+
+.tile a {
+	position: absolute;
+  	bottom: 14px;
+  	right: 19px;	
+}
+
+#more-row1 {
+	padding-bottom: 20px;
+}
+
+#more-row2 {
+	padding-bottom: 100px;
+}
+
+/* Reimagine is More hover tiles */
+
+.tile:hover .hover-tile {
+  	opacity: 1;
+}
+
+.tile .hover-tile {
+ 	position: absolute;
+	top: 23px;
+	width: 353px;
+	height: 443px;
+	opacity: 0;
+	transition: all 0.4s ease;
+	background-color: #9bca4d;
+	color: white;
+
+}
+
+.hover-tile h2 {
+	text-align: center;
+	vertical-align: middle; 
+	font-size: larger;
+	padding-top: 33%;
+
+}
+
+/*.hover-tile a {
+	text-align: center;
+	padding-top: 10px;
+}*/
+
+.tile {
+	font-size: 21px;
+}
+
+.hover-icon {
+	height: auto;
+	max-width: 100%;
+}
+/* end of reimagine is more */
+
+/* we are here together */
+#together-text {
+	padding-left: 87px;
+
+
+}
+
+/* end we are here together */
+
+/* start exploring today */
+#exploring {
+	background-color: #9bca4d;
+	height: 515px;
+	margin-top: 10px;
+	color: white;
+}
+
+.inputs {
+	margin-left: 116px;
+  	margin-top: 25px;
+}
+
+.form-control {
+	margin-bottom: 6px;
+  	border: none;
+
+}
+
+#signup-box {
+	margin-top: 75px;
+}
+
+#signup-btn {
+	margin-left: -152px;
+	margin-top: 44px;
+}
+/* end start exploring today */
+
+/* bottom links */
+#bottom-links {
+	text-align: center;
+  	background-color: white;
+  	height: 77px;
+  	padding-top: 20px;
+}
+/* footer */
+
+.footer {
+	/*position: absolute;*/
+  	bottom: 0;
+  	width: 100%;
+  	height: 125px;
+  	background-color: #3a3431;
+}
+
+#footer-links i{
+	color: #f4732d;
+	padding:10px;
+}
+
+.brand-footer li {
+	display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {  
+  #mac-pic {
+    display: none;
+  }
+
+  #stranger-community img {
+  	display: none;
+  }
+
+    #stranger-tools img {
+  	display: none;
+  }
+
+    #stranger-core img {
+  	display: none;
+  }
+
+  #testimonials img {
+  	display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
